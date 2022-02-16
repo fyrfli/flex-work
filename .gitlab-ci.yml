@@ -3,7 +3,6 @@ pages:
   script:
     - mkdir .public
     - cp -r styles .public
-    - cp -r images .public
     - cp index.html .public
     - rm -rf public
     - mv .public public
